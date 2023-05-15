@@ -1,0 +1,23 @@
+.woman__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 170%;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.woman__text:last-of-type {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .woman__text {
+        font-size: 22px;
+        grid-column-start: 1;
+        margin-bottom: 0px;
+        width: 586px;
+    }
+}

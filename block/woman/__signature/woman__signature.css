@@ -1,0 +1,9 @@
+.woman__signature {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .woman__signature {
+        width: 670px;
+    }
+}

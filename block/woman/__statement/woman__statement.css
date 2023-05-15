@@ -1,0 +1,25 @@
+.woman__statement {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38.6546px;
+    line-height: 90%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.woman__statement:last-of-type {
+    font-size: 49.8561px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .woman__statement {
+        font-size: 44.7911px;
+    }
+    
+    .woman__statement:last-of-type {
+        margin-left: 25px;
+        font-size: 61.4163px;
+    } 
+}

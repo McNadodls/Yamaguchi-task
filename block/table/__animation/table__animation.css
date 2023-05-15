@@ -1,0 +1,17 @@
+.table__animation {
+    position: relative;
+    width: 332.72px;
+    left: -20px;
+    height: 266px;  
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .table__animation {
+        width: 975.79px;
+        height: 782.89px; 
+        grid-column-start: 1;
+        grid-row: 1/4;
+        padding: auto;
+    }   
+}

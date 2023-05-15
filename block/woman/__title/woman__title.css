@@ -1,0 +1,20 @@
+.woman__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 100%;
+    
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+@media screen and (min-width: 768px) {
+    .woman__title {
+        font-size: 56px;
+        line-height: 75px;
+        width: 400px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+}

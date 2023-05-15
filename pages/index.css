@@ -1,0 +1,38 @@
+/*шрифты*/
+@import url(../fonts/BebasNeue/stylesheet.css);
+@import url(../fonts/Montserrat/stylesheet.css);
+@import url(../fonts/Ubuntu/stylesheet.css);
+/*блоки*/
+@import url(../block/body/body.css);
+@import url(../block/body/_theme/body_theme_white.css);
+@import url(../block/body/_theme/body_theme_dark.css);
+@import url(../block/screan/screan.css);
+
+@import url(../block/screan/__btn/screan__btn.css);
+
+/*экран со столом*/
+    @import url(../block/table/table.css);
+    @import url(../block/table/__title/table__title.css);
+    @import url(../block/table/__text/table__text.css);
+    @import url(../block/table/__animation/table__animation.css);
+    @import url(../block/table/__image/table__image.css);
+    @import url(../block/table/__container/table__container.css);
+    @import url(../block/table/__button/table__button.css);
+
+    @import url(../features/tableAnim.css);
+
+/*экран с девушкой*/
+    @import url(../block/woman/woman.css);
+    @import url(../block/woman/__title/woman__title.css);
+    @import url(../block/woman/__text/woman__text.css);
+    @import url(../block/woman/__phone/woman__phone.css);
+    @import url(../block/woman/__signature/woman__signature.css);
+    @import url(../block/woman/__statement/woman__statement.css);
+    @import url(../block/woman/__animation/woman__animation.css);
+    @import url(../block/woman/__image/woman__image.css);
+    @import url(../block/woman/__ellipse/woman__ellipse.css);
+
+    @import url(../features/womanAnim.css);
+
+/*display: none;*/
+@import url(../block/screan/_hide/screan_hide.css);

@@ -1,0 +1,50 @@
+.woman__ellipse > ellipse {
+    animation-name: ellipse-open;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+
+}
+.woman-fly {
+    animation-name: woman-levitation, woman-fly;
+    animation-duration: 2s, 3.6s;
+    animation-iteration-count: infinite, 1;
+    animation-timing-function: ease-in-out, ease;
+    animation-direction: alternate, normal;
+    animation-delay: 6s, 2.4s;
+}
+
+@keyframes woman-levitation {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(3.16%);
+    }
+}
+
+@keyframes woman-fly {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes ellipse-open {
+    0%{
+        rx: 0;
+        ry: 0;
+    }
+    40% {
+        rx:29%;
+        ry: 50%;
+    }
+    90%{
+        rx:29%;
+        ry: 50%;
+    }
+    100%{
+        rx: 22%;
+        ry: 32%;
+    }
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Light.eot');
+    src: local('Ubuntu Light'), local('Ubuntu-Light'),
+        url('Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+        url('Ubuntu-Light.woff') format('woff'),
+        url('Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

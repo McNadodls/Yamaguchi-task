@@ -1,0 +1,30 @@
+.table__text {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #181818;
+    margin: 0;
+    grid-row-start: 2;
+}
+
+.table__text:last-of-type { 
+    grid-row-start: 4;
+}
+
+@media screen and (min-width: 768px) {
+    .table__text {
+        font-size: 22px;
+        line-height: 170%;
+        width: 500px;
+
+
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }   
+    .table__text:last-of-type { 
+        grid-row-start: 3;
+    }
+}

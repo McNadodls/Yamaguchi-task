@@ -1,0 +1,8 @@
+.table__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 43.53%;
+    height: 23.17%;
+    margin: 50% auto 0;
+}

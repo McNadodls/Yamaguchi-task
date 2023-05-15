@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание для верстальщика</title>
+    <link rel="stylesheet" href="./pages/index.css"/>
+    <meta name="author" content="Мансуров Дмитрий">
+</head>
+<!-- Для уменьшения кодовой базы было решено объединить два ТЗ в один и переключать их по нажатию кнопки в правом верхнем углу -->
+<!-- keyframes для анимации находятся в папке features-->
+<body class="body body_theme_white">
+    <header></header>
+    <main class="screan">
+        <!-- Секция с анимацией поднятия и опускания стола. Триггер начала анимации реализован через JS  -->
+        <section class="table"> 
+            <h1 class="table__title">Эргономика — ключ к успеху современного человека</h1>
+            <p class="table__text">Cтильная столешница , выполненной из экологически безопасного материала (ДСП), и усиленной стальной рамы не составит труда разместить на поверхности инновационного стола большое количество крупногабаритной техники: стол выдерживает нагрузку до 80 кг.</p>
+            <p class="table__text">Также столешница, обладающая меламиновым покрытием, хорошо переносит механические воздействия (царапины или удары), при контакте c водой не разрушается, устойчиво переносит бытовые химические вещества и не выгорает под воздействием ультрафиолета.</p>
+            <div class="table__animation">
+                <img class="table__image" id="table-img-down" src="./images/pable/down.png" alt="Нижняя часть эргономичного стола">
+                <img class="table__image" id="table-img-up" src="./images/pable/up.png" alt="Верхняя часть эргономичного стола">
+                <div class="table__container">
+                    <button class="table__button" id="table-btn-up">вверх</button>
+                    <button class="table__button" id="table-btn-down">вниз</button>
+                </div>
+            </div> 
+        </section> 
+        <!-- Секция с анимацией вылета девушки -->
+        <section class="woman screan_hide"> 
+            <h1 class="woman__title">Yamaguchi Voice Control</h1>
+            <p class="woman__text">Вы можете управлять программами массажа или самим креслом с помощью голосовых команд, приведённых ниже. Коснитесь кратковременно кнопки голосового управления, расположенной на левом подлокотнике, для запуска сеанса голосового управления.</p>
+            <p class="woman__text">Произнесите одну из доступных команд. Если произнесённая команда распознана, вы услышите ответ и кресло приступит к выполнению запроса.</p>
+            <div class="woman__animation"> 
+                <svg class="woman__ellipse">
+                    <ellipse /> 
+                    Sorry, your browser does not support inline SVG. 
+                </svg>
+                <img class="woman__image" src="./images/woman/woman.png" alt="Неоновая левитирующая девушка">
+            </div>
+            <img class="woman__phone" src="./images/woman/phone.png" alt="Телефон с голосовым помошником Yamaguchi">
+            <div class="woman__signature">
+                <p class="woman__statement">СКАЖИ:</p>
+                <p class="woman__statement">«ОКЕЙ, ЯМАГУЧИ»</p>
+            </div>
+        </section>
+        <!-- Кнопка переключения между экранами -->
+        <button class="screan__btn">ПЕРЕЙТИ НА ДРУГОЙ ЭКРАН</button>
+    </main>
+    <footer></footer>
+    <script src="./pages/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.table {
+    margin: 14px 12px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    gap: 20px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .table {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
+    }   
+}

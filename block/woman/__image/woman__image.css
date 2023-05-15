@@ -1,0 +1,6 @@
+.woman__image {
+    position: absolute;
+    width: 100%;
+    left: 1.6%;
+    transform: translateY(150%);
+}

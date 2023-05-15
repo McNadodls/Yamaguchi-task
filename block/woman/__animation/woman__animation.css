@@ -1,0 +1,33 @@
+.woman__animation {
+    position: relative;
+    overflow:hidden;
+    width: 289px;
+    height: 600px;
+    margin-bottom: 15px;
+
+    clip-path: polygon(
+        0 0, 
+        100% 0, 
+        78.89% 96.37%, 
+        78.21% 97.07%, 
+        75.22% 98.13%, 
+        71.55% 98.83%, 
+        61.46% 99.65%, 
+        50% 100%,
+        38.54% 99.65%, 
+        28.45% 98.83%, 
+        24.78% 98.13%, 
+        21.79% 97.07%, 
+        21.11% 96.37%
+    );
+}
+
+@media screen and (min-width: 768px) {
+    .woman__animation {
+        width:436px;
+        height:852px;
+        margin-bottom: 0;
+        grid-column-start: 2;
+        grid-row: 1/5;
+    }
+}
